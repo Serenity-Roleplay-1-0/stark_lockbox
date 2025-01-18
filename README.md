@@ -9,11 +9,14 @@ I would like to thank my dear friend and fellow developer, SneakEOne, for his he
 ## QBCore
 I would like to thank the developers of QBCore for creating a solid RP framework for FiveM servers that allows for easy development of scripts to enhance gameplay.
 
+## QBox
+I would also like to thank the developers of Qbox for creating a solid, alternative RP framework for FiveM servers that allows for easy development of scripts to enhance gameplay.
+
 ## Overextended
 I would like to thank the amazing developers at Overextended for creating stellar resources in both Ox Inventory and Ox Lib.
 
 # Description
-Stark Lockbox is a QBCore resource that allows LEOs to utilize a locking storage in their vehicles that only they can acccess, keeping vital law enforcement equipment safe from others while enhancing QOL and gameplay experience.
+Stark Lockbox is a resource that allows LEO & EMS to utilize a locking storage in their vehicles that only they can acccess, keeping vital law enforcement or medical equipment safe from others while enhancing QOL and gameplay experience.
 
 ## Installation
 1. Add stark_lockbox to your resources folder for your server
@@ -24,8 +27,12 @@ Stark Lockbox is a QBCore resource that allows LEOs to utilize a locking storage
 6. NOTE: This resource must start after the dependent scripts defined in Dependencies!
 
 # Features
-1. Unique Lockboxes for LEO use in their vehicles
-2. Accessable by either your chosen radial menu or a command: ```/lockbox```
+1. Unique Lockboxes for LEO or EMS to use in their vehicles
+2. Accessable by either the radial menu or a command: ```/lockbox```
+
+# Supported Frameworks
+1. QBCore
+2. QBox
 
 # Dependencies
 1. qb-radialmenu

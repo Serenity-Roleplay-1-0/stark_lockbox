@@ -8,9 +8,9 @@ name 'stark_lockbox'
 
 author 'Adam Biegert'
 
-version '1.0.3'
+version '2.0.0'
 
-description 'A LEO Lockbox Script for QBCore'
+description 'A Lockbox Script for Qbox & QBCore'
 
 shared_script {
     'config.lua',
@@ -18,9 +18,11 @@ shared_script {
 }
 
 client_scripts{
-    'client/*.lua'
+    'bridge/client/**.lua',
+    'client/*.lua',
+    '@qbx_core/modules/playerdata.lua' -- For Use With The Qbox Framework, Can Be Commented Out or Removed If Not Used
 }
 
 server_scripts{
-    'server/*.lua'
+    'bridge/server/**.lua'
 }
