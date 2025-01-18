@@ -2,8 +2,6 @@ if GetResourceState('qb-core') ~= 'started' or GetResourceState('qbx_core') == '
 
 local QBCore = exports['qb-core']:GetCoreObject()
 
--- local Config = lib.require('config')
-
 function qbCheckValidPoliceJob()
     local currentJob = QBCore.Functions.GetPlayerData().job
     if currentJob == nil then return false end

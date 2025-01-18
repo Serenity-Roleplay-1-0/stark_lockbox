@@ -1,5 +1,3 @@
--- local Config = lib.require('config')
-
 if Config.framework == 'qb' then
 
     local QBCore = exports['qb-core']:GetCoreObject()
@@ -183,44 +181,6 @@ if Config.framework == 'qb' then
 end
 
 if Config.framework == 'qbx' then
-
-    -- local function addRadialLeoLockboxOption()
-    --     local player = PlayerPedId()
-    --     MenuItemId = exports['qb-radialmenu']:addOption({
-    --         id = 'open_lock_box',
-    --         title = 'Open Lockbox',
-    --         icon = 'lock',
-    --         type = 'client',
-    --         event = 'stark_lockbox:client:openLockBox',
-    --         shouldClose = true
-    --     }, MenuItemId)
-    -- end
-
-    -- local function updateRadial()
-    --     local player = PlayerPedId()
-    --     if qbxCheckValidPoliceJob() or qbxCheckValidAmbulanceJob() then
-    --         if IsPedInAnyVehicle(player, false) then
-    --             local vehicle = GetVehiclePedIsIn(player, false)
-    --             local vehicleType = GetVehicleClass(vehicle)
-    --             if vehicleType == 18 then
-    --                 addRadialLeoLockboxOption()
-    --             elseif MenuItemId ~= nil then
-    --                 exports['qb-radialmenu']:removeOption(MenuItemId)
-    --                 MenuItemId = nil
-    --             end
-    --         elseif MenuItemId ~= nil then
-    --             exports['qb-radialmenu']:removeOption(MenuItemId)
-    --             MenuItemId = nil
-    --         end
-    --     elseif MenuItemId ~= nil then
-    --         exports['qb-radialmenu']:removeOption(MenuItemId)
-    --         MenuItemId = nil
-    --     end
-    -- end
-
-    -- RegisterNetEvent('qb-radialmenu:client:onRadialmenuOpen', function()
-    --     updateRadial()
-    -- end)
 
     function openLockBoxInventory()
 

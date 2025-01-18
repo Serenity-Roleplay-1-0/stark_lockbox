@@ -1,7 +1,5 @@
 if GetResourceState('qbx_core') ~= 'started' then return end
 
--- local Config = lib.require('config')
-
 function qbxCheckValidPoliceJob()
     local currentJob = QBX.PlayerData.job
     if currentJob == nil then return false end

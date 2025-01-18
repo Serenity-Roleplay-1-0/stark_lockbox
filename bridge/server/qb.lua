@@ -2,8 +2,6 @@ if GetResourceState('qb-core') ~= 'started' or GetResourceState('qbx_core') == '
 
 local QBCore = exports['qb-core']:GetCoreObject()
 
--- local Config = lib.require('config')
-
 local oxInvState = GetResourceState('ox_inventory')
 
 local ox_inventory = exports.ox_inventory
